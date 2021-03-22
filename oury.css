@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.navbar{
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	padding: 20px;
+	justify-content: space-around;
+	width: 2000;
+	display: flex;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.navbar .max-widht{
+	width: 2000;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.menu li{
+	display: inline-block;
+	width: 100%;
+}
+.menu li a{
+	color:white;
+	font-size: 70px;
+	font-weight: 700;
+	
+}
+.menu li a{
+	color: red;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: none;
+	transition: color 2s;
+}
+.menu li a hover{
+	color: white;
+}
+.moi{
+	color: white;
+	font-size: 100px;
+	text-align: center;
+}
+
+.isi{
+	background: black;
+	border: 30px dashed red;
+}
+.home{
+	background-image: url('IMG_7007.PNG');
+	height: 800px;
+	display: flex;
+}
+.home .max-widht{
+	color: red;
+	margin: auto 120px; 
+}
+.home .max-widht .text1{
+	font-size: 40px;
+	font-weight: 500;
+
+}
+.home .max-widht .text3{
+	font-size: 60px;
+	font-weight: 500;
+}
+.home .max-widht .text4{
+	font-size: 60px;
+	font-weight: 500;
+
+}
+.home .max-widht .button{
+	display: inline-block;
+	color: blue;
+	font-size: 40px;
+	font-weight: 600;
+	background-color: crimson;
+	border: 2px dashed crimson;
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+.home .max-widht .button:hover{
+	background: none;
+}
+/*****************************************************************/

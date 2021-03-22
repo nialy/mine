@@ -1,0 +1,15 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.oeu{
+	background-image: url('IMG_7005 (2).PNG');
+	height: 800px;
+	display: flex;
+}
+.p{
+	font-size: 50px;
+	color: white;
+}
